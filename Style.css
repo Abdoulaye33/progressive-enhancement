@@ -1,6 +1,7 @@
 body {
     background-color: rgb(2, 1, 12);
     color: white;
+    margin: 0px 30px 30px 40px;
 }
 table, tr, th {
     border: 1px dashed white;
@@ -9,6 +10,7 @@ table, tr, th {
 }
 table {
     margin-left: 100px;
+    background-color: rgb(29, 24, 24);
 }
 th {
 
@@ -17,4 +19,25 @@ th {
 a {
     text-decoration: none;
     color: white;
+}
+
+
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(29, 24, 24);
+}
+  
+.all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+}
+  
+.browser {
+    background: rgb(41, 39, 39);
+}
+  
+.browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
 }
