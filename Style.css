@@ -1,7 +1,15 @@
 body {
+    background-color: white;
+    color: black;
+    margin: 0px 30px 30px 40px;
+}
+.dark-mode {
     background-color: rgb(2, 1, 12);
     color: white;
-    margin: 0px 30px 30px 40px;
+  }
+img {
+    height: 500px;
+    width: 700px;
 }
 table, tr, th {
     border: 1px dashed white;
@@ -22,6 +30,7 @@ a {
 }
 
 
+
 .all-browsers {
     margin: 0;
     padding: 5px;
@@ -40,4 +49,15 @@ a {
 .browser > h2, p {
     margin: 4px;
     font-size: 90%;
+}
+
+button {
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border: solid 1px ;
+    border-radius: 10px;
+    height: 30px;
+    float: right;
+    margin: 0px 100px 0px 0px;
 }

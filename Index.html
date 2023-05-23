@@ -12,6 +12,7 @@
         <h1>The Story of the Chinese Farmer</h1>
     </header>
     <main>
+        <button onclick="myFunction()">Dark Mode</button>
         <p>
             11 may 2016, Alexandre Gorius
         </p>
@@ -113,7 +114,12 @@
    
    
    
-   
+     <script src="script.js">
+        function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
+     </script>
    
    
     </main>
